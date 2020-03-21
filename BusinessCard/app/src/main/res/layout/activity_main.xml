@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/cats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/batnsuki"
+        app:srcCompat="@drawable/batnsuki"
+        android:hardwareAccelerated="false"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:id="@+id/business_name"
+        android:layout_below="@id/cats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cats-R-Us"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/business_name"
+        android:layout_marginLeft="24dp">
+
+        <ImageView
+            android:id="@+id/location_logo"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/location_logo"
+            android:layout_below="@id/business_name"
+            android:layout_marginTop="12dp"
+            android:layout_weight="0"
+            />
+
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:text="102 Tenant Avenue, Morgan Hill, CA 95037"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/business_name"
+        android:layout_marginLeft="24dp">
+
+        <ImageView
+            android:id="@+id/phone_logo"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/phone_logo"
+            android:layout_below="@id/location_logo"
+            android:layout_marginTop="48dp"
+            />
+        <TextView
+            android:layout_marginTop="48dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="408-916-4321"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="24dp"
+        android:layout_below="@id/business_name"
+>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We love cats here at our business!
+We do all kinds of work such as neutering your cats, giving them medicine,
+making sure they stay in the best health as possible!"
+            android:layout_below="@id/phone_logo"
+            android:layout_marginTop="78dp"
+            android:textSize="16dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
