@@ -1,4 +1,4 @@
-# Android-Studio-Projects
+# Android Studio Projects
 
 These are all the projects I made during the Android Studio Nanodegree program on Udacity made by Google! 
 
