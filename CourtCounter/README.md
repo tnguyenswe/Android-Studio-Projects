@@ -1,3 +1,4 @@
+# Coffee Ordering Application
 
 This is a simple application built for the second course in Google's courses on Android Studio!
 
