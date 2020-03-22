@@ -12,6 +12,6 @@ Once the user presses the order button, we open a new email that has the custome
 Below are pictures of the application in use.
 <img src="https://github.com/tnguyenswe/Android-Studio-Projects/blob/master/Pictures/Screenshot_1584839090.png" width="250" height="450">
 
-<img src="https://github.com/tnguyenswe/Android-Studio-Projects/blob/master/Pictures/Screenshot_1584839106.png" width="300" height="500">
+<img src="https://github.com/tnguyenswe/Android-Studio-Projects/blob/master/Pictures/Screenshot_1584839106.png" width="250" height="450">
 
 
