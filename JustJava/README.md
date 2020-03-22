@@ -10,10 +10,8 @@ We have a limit of 1-100 coffees only since ordering more/less is unreasonable.
 Once the user presses the order button, we open a new email that has the customer's information!
 
 Below are pictures of the application in use.
-<img src="https://github.com/tnguyenswe/Android-Studio-Projects/blob/master/Pictures/Screenshot_1584839090.png" width="500" height="500">
+<img src="https://github.com/tnguyenswe/Android-Studio-Projects/blob/master/Pictures/Screenshot_1584839090.png" width="500" height="800">
 
-<img src="https://github.com/tnguyenswe/Android-Studio-Projects/blob/master/Pictures/Screenshot_1584839106.png" width="500" height="500">
+<img src="https://github.com/tnguyenswe/Android-Studio-Projects/blob/master/Pictures/Screenshot_1584839106.png" width="500" height="750">
 
 
-![alt text](https://github.com/tnguyenswe/Android-Studio-Projects/blob/master/Pictures/Screenshot_1584839090.png)
-![alt_text](https://github.com/tnguyenswe/Android-Studio-Projects/blob/master/Pictures/Screenshot_1584839106.png)
